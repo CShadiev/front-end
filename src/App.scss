@@ -1,0 +1,17 @@
+$font-size: 16px;
+
+@import "~@progress/kendo-theme-material/dist/all.scss";
+
+.k-card {
+  padding: 1rem;
+}
+.k-card-title {
+  text-align: center;
+}
+.text-centered {
+  text-align: center;
+}
+.password-row {
+  padding: 8px 1rem;
+  border-bottom: 1px solid $primary
+}
