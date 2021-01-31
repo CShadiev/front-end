@@ -1597,6 +1597,11 @@
     "@progress/kendo-react-common" "4.3.0"
     prop-types "^15.6.0"
 
+"@progress/kendo-theme-default@^4.32.0":
+  version "4.32.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-4.32.0.tgz#c0d7fb5d64ba68a9d8f49ac8b0a463f2a3d5ad3a"
+  integrity sha512-RlirlsHr/l5arcGGuVU7jZqiAe7qHLxD1N5nI4IEfrOICFcjSZIT7TOpQHIV5bb62EPCt2gLofWw6p1OQbzw0A==
+
 "@progress/kendo-theme-material@^3.28.0":
   version "3.28.0"
   resolved "https://registry.yarnpkg.com/@progress/kendo-theme-material/-/kendo-theme-material-3.28.0.tgz#775a5cb5f3f86acd4c17071d73500908a5865cd9"

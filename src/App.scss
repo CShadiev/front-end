@@ -1,4 +1,8 @@
-$font-size: 16px;
+$font-size: 14px;
+$cell-padding-x: 6px;
+$cell-padding-y: 8px;
+$grid-header-padding-x: 6px;
+$grid-header-padding-y: 8px;
 
 @import "~@progress/kendo-theme-material/dist/all.scss";
 
@@ -11,7 +15,12 @@ $font-size: 16px;
 .text-centered {
   text-align: center;
 }
-.password-row {
-  padding: 8px 1rem;
-  border-bottom: 1px solid $primary
+.k-widget .k-grid {
+  width: 70vw;
+}
+body {
+  background-color: rgba($primary, .05);
+}
+.k-grid-header {
+  background-color: rgba($tertiary, .1);
 }

@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import './App.scss';
 
 
-const api = 'http://127.0.0.1:5000/';
+const api = 'http://cshadiev.ru/pwd-gen-api/';
 const addPreset = (preset, updater) => {
   const modifiedPreset = {id: 0, ...preset}
   axios.post(api + 'presets/set', modifiedPreset)
@@ -64,7 +64,7 @@ function App() {
   return (
     <div className="App">
       <div className={'container'}>
-        <MainInterface {...{presets, controls}} />
+        <MainInterface {...{presets, controls, fetchPresets}} />
       </div>
     </div>
   );

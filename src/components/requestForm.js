@@ -7,10 +7,10 @@ import {NumericTextBox} from "@progress/kendo-react-inputs";
 
 const RequestForm = (props) => {
     const {presets, requestHandler} = props;
-    const {setPasswords} = props;
+    const {setPasswords, setShowDialog} = props;
     const presetTitles = presets.map(item => item['title']);
     const defaults = {
-        'n': 5,
+        'n': 20,
         'preset': 'balanced'
     };
 
@@ -23,6 +23,7 @@ const RequestForm = (props) => {
             requestHandler(preset, n, setPasswords);
         }
     }
+    const showDialog = () => setShowDialog(true);
 
 
     return (
@@ -43,7 +44,8 @@ const RequestForm = (props) => {
                                                  label={'Preset'} />
                                       </div>
                                       <div className={'col-auto pl-0'}>
-                                          <Button icon={'edit'} look={'flat'}/>
+                                          <Button icon={'edit'} look={'flat'}
+                                                  onClick={showDialog} />
                                       </div>
                                   </div>
                               </div>

@@ -1,7 +1,8 @@
 {
-  "name": "front-end",
+  "name": "password-generator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cshadiev.ru/password-generator",
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.4",
     "@progress/kendo-drawing": "^1.9.3",
@@ -19,6 +20,7 @@
     "@progress/kendo-react-layout": "^4.3.0",
     "@progress/kendo-react-progressbars": "^4.3.0",
     "@progress/kendo-react-treeview": "^4.3.0",
+    "@progress/kendo-theme-default": "^4.32.0",
     "@progress/kendo-theme-material": "^3.28.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
